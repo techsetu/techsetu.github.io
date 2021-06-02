@@ -1,0 +1,10 @@
+---
+---
+
+$baseurl: "{{ site.baseurl }}";
+$image_base_url: "{{ site.image_base_url }}";
+$banner-bg-img: "{{ site.data.home.banner.bg-img }}";
+$highlights-bg-img: "{{ site.data.home.highlights.bg-img }}";
+$news-highlight-bg-img: "{{ site.data.home.news-events.highlight.bg-img }}";
+
+@import "custom";

@@ -1,0 +1,56 @@
+/* Custom SCSS */
+$color-primary: #ddd;
+
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+.font-primary {
+  font-family: 'Poppins', sans-serif;
+}
+.font-secondary {
+  font-family: 'Open sans', sans-serif;
+}
+.blue {
+  color: #175EEE;
+}
+.red {
+  color: #EE2020
+}
+.green {
+  color: #0AAA50;
+}
+.btn {
+  border-radius: 0;
+}
+.page-margin {
+  margin-top: 100px;
+}
+a, a:hover {
+  text-decoration: none;
+}
+#page-content {
+  flex: 1 0 auto;
+}
+.footer-bottom {
+  flex-shrink: none;
+}
+
+.section-padding {
+  padding: 5rem 0;
+}
+.section-title {
+  color: #333;
+}
+
+@import "animate.min";
+@import "workshops";
+@import "home";
+@import "responsive";

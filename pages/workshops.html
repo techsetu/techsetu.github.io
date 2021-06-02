@@ -1,0 +1,22 @@
+---
+layout: default
+title: Workshops
+permalink: /workshops/
+page_name: workshops
+---
+
+<div class="workshops-page">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <h1 class="mb-0">Gurukula Workshops</h1>
+      <p class="mb-0 font-secondary">
+        Enhance your skills with expert driven workshops
+      </p>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      {% for workshop in site.data.workshops %}
+        {% include home/workshop-card.html workshop=workshop %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

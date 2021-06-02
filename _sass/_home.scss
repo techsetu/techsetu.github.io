@@ -1,0 +1,249 @@
+.section-header .section-title {
+  font-size: 32px;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+}
+.section-header .section-divider {
+  border-bottom-width: 3px;
+  border-bottom-color: #dcdcdc;
+  overflow: hidden;
+  padding-top: 0.8rem;
+  border-bottom-style: solid;
+}
+
+header {
+  position: relative;
+
+  .navbar.lower {
+    background-color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar {
+    .brand {
+      font-size: 1.5rem;
+      color: #555;
+
+      img {
+        height: 40px;
+      }
+      span {
+        font-weight: 600;
+      }
+    }
+    .navbar-nav .nav-item .nav-link {
+      padding: 1.2rem 1.5rem;
+      font-size: 15px;
+      font-weight: 300;
+      color: #333;
+    }
+    .navbar-nav .nav-item.active .nav-link,
+      .navbar-nav .nav-item:hover .nav-link {
+      background-color: #94908d;
+      color: #fff;
+    }
+    .navbar-toggler {
+      border: 1px solid #777;
+      font-size: 20px;
+      padding: 0.125rem 0.25rem;
+    }
+  }
+
+  > * {
+    z-index: 10;
+  }
+  .banner > * {
+    z-index: 10;
+  }
+  .banner {
+    height: 80vh;
+
+    .banner-bg {
+      background: url($image_base_url + "/bg.jpg") no-repeat center center/cover;
+      height: 100%;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 2.8rem;
+    }
+    .purpose {
+      h2 {
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: #fff;
+      }
+    }
+
+    .banner-actions {
+      margin-top: 2rem;
+
+      .btn {
+        font-weight: 300;
+        font-size: 13px;
+      }
+      .btn-primary {
+        background-color: #5E9FFF;
+        border-color: #5E9FFF;
+      }
+      .btn-primary:hover {
+        background-color: #4480d8;
+        border-color: #4480d8;
+      }
+    }
+  }
+}
+
+.membership {
+  .caption-wrapper {
+    width: 50%;
+  }
+  .btn-wrapper {
+    width: 50%;
+  }
+  .card {
+    img {
+      transform: scale(0.75, 0.75);
+    }
+  }
+}
+
+.community-events {
+  .section-header {
+    .caption {
+      font-family: Helvetica, sans-serif;
+    }
+  }
+  .event-card {
+    .event-date {
+      background: #f5f5f5;
+      font-size: 16px;
+      padding: 1.3rem;
+      text-align: center;
+      line-height: 24px;
+
+      .date {
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+      }
+    }
+    .event-details {
+      padding: 1rem;
+
+      .venue-and-time, .duration {
+        color: #666;
+        font-size: 13px;
+        line-height: 22px;
+      }
+    }
+    .event-register {
+      float: right;
+    }
+  }
+}
+
+.footer {
+  position: relative;
+  background: #1e2129;
+
+  &:before {
+    position: absolute;
+    content: '';
+    background: url($image_base_url + "/footer-pattern.png");
+    width: 744px;
+    height: 200px;
+    top: 30px;
+    right: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .footer-content {
+    position: relative;
+    padding: 65px 0px 60px 0px;
+  }
+
+  .footer-widget {
+    .description {
+      color: #ccc;
+      font-weight: 300;
+    }
+    .footer-title {
+      position: relative;
+      font-size: 16px;
+      line-height: 30px;
+      color: #ffffff;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  }
+
+  .service-widget .list li {
+    display: block;
+    margin-bottom: 10px;
+
+    a {
+      position: relative;
+      display: inline-block;
+      color: #ccc;
+      font-weight: 300;
+
+      &:hover{
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .contact-widget {
+    .text p {
+      color: #ccc;
+      font-size: 15px;
+      font-weight: 300;
+      margin-bottom: 12px;
+
+      i {
+        display: block;
+        color: #fff;
+        float: left;
+        margin-top: 6px;
+        margin-right: 10px;
+      }
+      span {
+        display: block;
+        margin-left: 25px;
+      }
+    }
+    .footer-social li {
+      display: inline-block;
+      margin-right: 9px;
+
+      a {
+        display: inline-block;
+        font-size: 22px;
+        line-height: 42px;
+        color: #fff;
+        text-align: center;
+      }
+    }
+    .footer-social li:last-child{
+      margin-right: 0px;
+    }
+  }
+}
+
+.footer-bottom {
+  position: relative;
+  background: #13151a;
+  padding: 5px 0;
+
+  .copyright {
+    font-weight: 300;
+    color: #ccc;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+}

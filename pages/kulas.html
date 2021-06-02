@@ -1,0 +1,22 @@
+---
+layout: default
+title: Kulas
+permalink: /kulas/
+page_name: kulas
+---
+
+<div class="kulas-page">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <h1 class="mb-0">Our Kulas</h1>
+      <p class="mb-0 font-secondary">
+        Fostering Collaboration and Self Learning
+      </p>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      {% for kula in site.data.kulas %}
+        {% include home/workshop-card.html workshop=kula %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

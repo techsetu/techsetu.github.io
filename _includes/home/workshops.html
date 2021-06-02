@@ -1,0 +1,21 @@
+<section id="workshops" class="workshops section-padding">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <h1 class="section-title mb-0">Gurukula Workshops</h1>
+      <p class="mb-0 font-secondary">
+        Enhance your skills with hands-on and expert driven workshops
+      </p>
+      <h6 class="mb-0 font-secondary text-danger">
+      ( Workshops syllabus are under preparation. Subscribe to get notified. )
+      </h6>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      {% for workshop in site.data.workshops limit: 4 %}
+        {% include home/workshop-card.html workshop=workshop %}
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <a href="/workshops/" class="btn btn-danger border-rounded px-4">View All Workshops</a>
+    </div>
+  </div>
+</section>

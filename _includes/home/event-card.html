@@ -1,0 +1,40 @@
+<div class="card event-card shadow border-0 rounded-0">
+  <div class="card-body p-0">
+    <div class="row">
+      <div class="col-md-2 d-none d-sm-block">
+        {% assign date_tokens = include.event.start_date | split: " " %}
+        <div class="event-date">
+          <div class="day">{{ include.event.start_day }}</div>
+          <div class="date">{{ date_tokens[0] }}</div>
+          <div class="text-uppercase">{{ date_tokens[1] }}</div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="event-details">
+          <h5 class="card-title text-primary">{{ include.event.name }}</h5>
+          <div class="venue-and-time">
+            <i class="fas fa-map-marker-alt"></i> Online
+            <span class="mx-2">|</span> {{ include.event.days }} {% if include.event.days == 1 %}day{% else %}days{% endif %}
+            {% if include.event.dates %}
+              <span>({{ include.event.dates }})</span>
+            {% endif %}
+          </div>
+          <div class="duration">
+            <i class="fas fa-clock"></i><span class="ml-1">{{ include.event.timing }}</span>
+            {% if include.event.members_only %}
+              <span class="ml-2 badge badge-secondary p-1 font-weight-light">members-only</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="event-register">
+          <a href="{{ include.event.register_link}}" target="_blank" class="btn btn-sm px-3 btn-primary">Register</a>
+        </div>
+        <div class="float-left d-block d-sm-none">
+          <a href="#" class="btn btn-sm px-3 btn-primary">{{ include.event.start_date }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

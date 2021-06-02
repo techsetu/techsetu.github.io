@@ -1,0 +1,18 @@
+<div class="col-lg-3 col-md-4">
+  <a href="{{ include.workshop.url }}">
+    <div class="card shadow border-0 mx-auto text-center">
+      <img src="{{ site.image_base_url }}/{{ include.workshop.thumbnail }}" alt="{{ include.workshop.title }}" class="card-img-top">
+      <div class="card-body d-flex flex-column justify-content-center items-align-center">
+        <!-- <h5 class="card-title">
+          {{ include.workshop.title }}
+        </h5> -->
+        <p class="card-text">
+          {{ include.workshop.description }}
+        </p>
+      </div>
+      {% if include.workshop.status != 'complete' %}
+        <div class="card-footer">Upcoming</div>
+      {% endif %}
+    </div>
+  </a>
+</div>

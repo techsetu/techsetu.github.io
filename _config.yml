@@ -1,0 +1,15 @@
+title: TECH Setu
+email: techsetuu@gmail.com
+description: >-
+  TECH Setu - bridging the gap between students and industry
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://techsetu.org"
+image_base_url: /assets/img
+thumbnail: thumbnail.jpg
+
+google_analytics: G-6YGR4H8C5L
+
+permalink: /blogs/:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
