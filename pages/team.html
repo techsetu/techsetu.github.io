@@ -1,0 +1,22 @@
+---
+layout: default
+title: Team
+permalink: /team/
+page_name: team
+---
+
+<div class="team-page page-margin mb-5">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <h1 class="mb-0">Meet Our Team</h1>
+      <p class="mb-0 font-secondary">
+        Fostering Collaboration, Leadership and Community Building
+      </p>
+    </div>
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
+      {% for team in site.data.team %}
+        {% include team-member.html team=team %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

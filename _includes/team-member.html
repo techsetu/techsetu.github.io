@@ -1,0 +1,19 @@
+<div class="col mb-4">
+  <div class="card shadow-sm border-0 rounded-0 h-100">
+    <img src="{{ site.image_base_url }}/team/{{ include.team.img }}" alt="{{ include.team.name }}" class="img-fluid">
+    <div class="card-body h-100">
+      <div class="person-info">
+        <h5 class="member-name mb-1">{{ include.team.name }}</h5>
+        <div class="designation">{{ include.team.designation }}</div>
+      </div>
+
+      <div class="contact-links mt-1">
+        {% for contact in include.team.contacts %}
+          <a href="{{ contact.url }}" target="_blank" rel="noopener noreferrer" class="mr-3">
+            <i class="{{ contact.icon }} bx-sm"></i>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

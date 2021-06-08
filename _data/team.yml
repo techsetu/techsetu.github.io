@@ -1,0 +1,32 @@
+- name: Asim Tara Pathak
+  designation: Executive Member
+  img: asim.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/asim-tara-pathak/
+      icon: bx bxl-linkedin
+    - label: Facebook
+      url: https://www.facebook.com/asim.atp
+      icon: bx bxl-facebook
+
+- name: Bidhya Thapa
+  designation: Executive Member
+  img: bidhya.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/bidhya-thapa-a9a01b195/
+      icon: bx bxl-linkedin
+    - label: Facebook
+      url: https://www.facebook.com/bidhya.thapa.587
+      icon: bx bxl-facebook
+
+- name: Basanta Adhikari
+  designation: Executive Member
+  img: basanta.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/basantaad817/
+      icon: bx bxl-linkedin
+    - label: Facebook
+      url: https://www.facebook.com/basantaad817
+      icon: bx bxl-facebook
