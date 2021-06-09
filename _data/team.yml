@@ -30,3 +30,14 @@
     - label: Facebook
       url: https://www.facebook.com/basantaad817
       icon: bx bxl-facebook
+
+- name: Ashok Yadav
+  designation: Executive Member
+  img: ashok.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/ashok-yadav-b09378121/
+      icon: bx bxl-linkedin
+    - label: Facebook
+      url: https://www.facebook.com/AshokYdav21
+      icon: bx bxl-facebook
