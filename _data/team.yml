@@ -5,6 +5,9 @@
     - label: LinkedIn
       url: https://www.linkedin.com/in/asim-tara-pathak/
       icon: bx bxl-linkedin
+    - label: GitHub
+      url: https://github.com/asimtarapathak
+      icon: bx bxl-github
     - label: Facebook
       url: https://www.facebook.com/asim.atp
       icon: bx bxl-facebook
@@ -40,4 +43,29 @@
       icon: bx bxl-linkedin
     - label: Facebook
       url: https://www.facebook.com/AshokYdav21
+      icon: bx bxl-facebook
+
+# - name: Twinkle Gurung
+#   designation: Executive Member
+#   img: twinkle.jpg
+#   contacts:
+#     - label: LinkedIn
+#       url: https://www.linkedin.com/in/ashok-yadav-b09378121/
+#       icon: bx bxl-linkedin
+#     - label: Facebook
+#       url: https://www.facebook.com/twincal.grg.1
+#       icon: bx bxl-facebook
+
+- name: Jessica Basnet
+  designation: Executive Member
+  img: jessica.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://linkedin.com/in/jeshikabasnet
+      icon: bx bxl-linkedin
+    - label: GitHub
+      url: https://github.com/Jessica-basnet
+      icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/jessy.tensab
       icon: bx bxl-facebook
