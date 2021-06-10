@@ -45,15 +45,68 @@
       url: https://www.facebook.com/AshokYdav21
       icon: bx bxl-facebook
 
-# - name: Twinkle Gurung
+# - name: Shivani Thapa
 #   designation: Executive Member
-#   img: twinkle.jpg
+#   img: shivani.jpg
 #   contacts:
 #     - label: LinkedIn
-#       url: https://www.linkedin.com/in/ashok-yadav-b09378121/
+#       url: https://linkedin.com/in/jeshikabasnet
+#       icon: bx bxl-linkedin
+#     - label: GitHub
+#       url: https://github.com/Jessica-basnet
+#       icon: bx bxl-github
+#     - label: Facebook
+#       url: https://www.facebook.com/shivan.thapa.986
+#       icon: bx bxl-facebook
+
+- name: Twinkle Gurung
+  designation: Executive Member
+  img: twinkle.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/twinkle-gurung-8216371a4/
+      icon: bx bxl-linkedin
+    - label: Facebook
+      url: https://www.facebook.com/twincal.grg.1
+      icon: bx bxl-facebook
+
+- name: Pankaj Binod Thapaliya
+  designation: Executive Member
+  img: pankaj.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/pankaj-thapaliya/
+      icon: bx bxl-linkedin
+    - label: GitHub
+      url: https://github.com/pankaj485
+      icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/pankajthapaliya2
+      icon: bx bxl-facebook
+
+- name: Anjali Neupane
+  designation: Executive Member
+  img: anjali.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/anjaliineupane
+      icon: bx bxl-linkedin
+    - label: GitHub
+      url: https://github.com/Anjalinpn
+      icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/neupane.anjali1
+      icon: bx bxl-facebook
+
+# - name: Jenu Oli
+#   designation: Executive Member
+#   img: jenu.jpg
+#   contacts:
+#     - label: LinkedIn
+#       url: https://www.linkedin.com/in/anjaliineupane
 #       icon: bx bxl-linkedin
 #     - label: Facebook
-#       url: https://www.facebook.com/twincal.grg.1
+#       url: https://www.facebook.com/neupane.anjali1
 #       icon: bx bxl-facebook
 
 - name: Jessica Basnet
