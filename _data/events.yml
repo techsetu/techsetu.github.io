@@ -1,47 +1,55 @@
-- name: 'Get started into DevOps World with Docker'
+placeholder:
+  # copy below template to create new event
+  name: Your talk or workshop topic
   venue: online
-  start_date: 26th June
-  start_day: Sat
-  days: 1
-  dates: 26th
-  timing: 6 PM - 7:15 PM NPT
-  members_only: true
-- name: 'HTML & CSS Workshop Batch #2'
-  venue: online
-  start_date: 6th June
-  start_day: Fri
-  days: 3
-  dates: 6th, 8th, 10th
-  timing: 6 PM - 7 PM NPT
-  members_only: false
-  register_link: https://forms.gle/GXJu5qoQjfLABZTu9
-- name: 'Monthly Meetup #1'
-  venue: online
-  start_date: 12th June
-  start_day: Sat
-  days: 1
-  timing: 4 PM - 6 PM NPT
-  members_only: false
-  register_link: https://forms.gle/s77BU13rQB5L2xuE7
-# - name: 'Linux Intro, Open Source & Community'
-#   venue: online
-#   start_date: 15th June
-#   start_day: Wed
-#   days: 1
-#   timing: 6 PM - 7:30 PM NPT
-#   members_only: false
-# - name: Docker Introduction
-#   venue: online
-#   start_date: 19th June
-#   start_day: Sat
-#   days: 1
-#   timing: 6 PM - 7:30 PM NPT
-#   members_only: true
-# - name: 'Cyber Security Batch #1'
-#   venue: online
-#   start_date: 21st June
-#   start_day: Mon
-#   days: 2
-#   dates: 21st, 23rd
-#   timing: 6 PM - 7 PM NPT
-#   members_only: true
+  start_date: TBD
+  start_day: TBD
+  days: TBD
+  dates: TBD
+  timing: TBD
+  members_only: TBD
+  register_link: https://forms.gle/Qjpafd8aKzPhzKfQ7
+upcoming:
+  - name: 'Get started into DevOps World with Docker'
+    venue: online
+    start_date: 26th June
+    start_day: Sat
+    days: 1
+    dates: 26th
+    timing: 6 PM - 7:15 PM NPT
+    members_only: true
+  # - name: 'Linux Intro, Open Source & Community'
+  #   venue: online
+  #   start_date: 15th June
+  #   start_day: Wed
+  #   days: 1
+  #   timing: 6 PM - 7:30 PM NPT
+  #   members_only: false
+  # register_link: https://forms.gle/GXJu5qoQjfLABZTu9
+  # - name: 'Cyber Security Batch #1'
+  #   venue: online
+  #   start_date: 21st June
+  #   start_day: Mon
+  #   days: 2
+  #   dates: 21st, 23rd
+  #   timing: 6 PM - 7 PM NPT
+  #   members_only: true
+  # register_link: https://forms.gle/GXJu5qoQjfLABZTu9
+past:
+  - name: 'HTML & CSS Workshop Batch #2'
+    venue: online
+    start_date: 6th June
+    start_day: Fri
+    days: 3
+    dates: 6th, 8th, 10th
+    timing: 6 PM - 7 PM NPT
+    members_only: false
+    register_link: https://forms.gle/GXJu5qoQjfLABZTu9
+  - name: 'Monthly Meetup #1'
+    venue: online
+    start_date: 12th June
+    start_day: Sat
+    days: 1
+    timing: 4 PM - 6 PM NPT
+    members_only: false
+    register_link: https://forms.gle/s77BU13rQB5L2xuE7

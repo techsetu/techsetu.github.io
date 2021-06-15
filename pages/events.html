@@ -1,14 +1,15 @@
-<section class="community-events section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="section-header text-center">
-          <h1 class="mb-1">Community Events</h1>
-          <p class="mb-0 caption">ॐ सर्वे भवन्तु शिक्षितः। (ॐ May all be educated.)</p>
-        </div>
-      </div>
-    </div>
+---
+layout: default
+title: Events
+permalink: /events/
+page_name: events
+---
 
+<div class="community-events page-margin mb-5">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <h1 class="mb-0">All Events</h1>
+    </div>
     <div class="row justify-content-center mt-5">
       {% if site.data.events.upcoming.size > 0 %}
         {% for event in site.data.events.upcoming %}
@@ -24,23 +25,16 @@
       {% endif %}
     </div>
 
-    <hr class="mb-5">
-
-    <div class="row justify-content-center">
+    <div id="past-events" class="row justify-content-center">
       <h2>Past Events</h2>
     </div>
 
     <div class="row justify-content-center mt-4">
-      {% for event in site.data.events.past limit: 1 %}
+      {% for event in site.data.events.past %}
         <div class="col-lg-9 mb-4">
           {% include home/event-card.html event=event past="true" %}
         </div>
       {% endfor %}
-      {% if site.data.events.past.size > 1 %}
-        <div class="col-lg-9 mb-4 text-center">
-          <a href="/events#past-events" class="btn btn-info px-3">View All</a>
-        </div>
-      {% endif %}
     </div>
   </div>
-</section>
+</div>

@@ -142,6 +142,11 @@ header {
         font-size: 13px;
         line-height: 22px;
       }
+      .venue-and-time, .duration {
+        .bx {
+          vertical-align: middle;
+        }
+      }
     }
     .event-register {
       float: right;

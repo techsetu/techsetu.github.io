@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-2 d-none d-sm-block">
         {% assign date_tokens = include.event.start_date | split: " " %}
-        <div class="event-date">
+        <div class="event-date h-100">
           <div class="day">{{ include.event.start_day }}</div>
           <div class="date">{{ date_tokens[0] }}</div>
           <div class="text-uppercase">{{ date_tokens[1] }}</div>
@@ -13,15 +13,15 @@
         <div class="event-details">
           <h5 class="card-title text-primary">{{ include.event.name }}</h5>
           <div class="venue-and-time">
-            <i class="fas fa-map-marker-alt"></i> Online
+            <i class="bx bxs-map bx-xs"></i> Online
             <span class="mx-2">|</span> {{ include.event.days }} {% if include.event.days == 1 %}day{% else %}days{% endif %}
             {% if include.event.dates %}
               <span>({{ include.event.dates }})</span>
             {% endif %}
           </div>
           <div class="duration">
-            <i class="fas fa-clock"></i><span class="ml-1">{{ include.event.timing }}</span>
-            {% if include.event.members_only %}
+            <i class="bx bx-time bx-xs"></i><span class="ml-1">{{ include.event.timing }}</span>
+            {% if include.event.members_only and include.event.timing != "TBD" %}
               <span class="ml-2 badge badge-secondary p-1 font-weight-light">members-only</span>
             {% endif %}
           </div>
@@ -29,10 +29,14 @@
       </div>
       <div class="col-md-2">
         <div class="event-register">
-          {% if include.event.register_link %}
-            <a href="{{ include.event.register_link}}" target="_blank" class="btn btn-sm px-3 btn-primary">Register</a>
+          {% if include.event.timing == "TBD" %}
+            <a href="{{ include.event.register_link }}" target="_blank" class="btn btn-sm px-3 btn-primary">Submit Proposal</a>
+          {% elsif include.event.register_link %}
+            {% if include.past != "true" %}
+              <a href="{{ include.event.register_link }}" target="_blank" class="btn btn-sm px-3 btn-primary">Register</a>
+            {% endif %}
           {% else %}
-            <a href="/apply/" class="btn btn-sm px-3 btn-primary">Apply as Membership</a>
+            <a href="/apply/" class="btn btn-sm px-3 btn-primary">Apply for Membership</a>
           {% endif %}
         </div>
         <div class="float-left d-block d-sm-none">
