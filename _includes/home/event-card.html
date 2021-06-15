@@ -29,7 +29,11 @@
       </div>
       <div class="col-md-2">
         <div class="event-register">
-          <a href="{{ include.event.register_link}}" target="_blank" class="btn btn-sm px-3 btn-primary">Register</a>
+          {% if include.event.register_link %}
+            <a href="{{ include.event.register_link}}" target="_blank" class="btn btn-sm px-3 btn-primary">Register</a>
+          {% else %}
+            <a href="/apply/" class="btn btn-sm px-3 btn-primary">Apply as Membership</a>
+          {% endif %}
         </div>
         <div class="float-left d-block d-sm-none">
           <a href="#" class="btn btn-sm px-3 btn-primary">{{ include.event.start_date }}</a>

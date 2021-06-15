@@ -1,3 +1,11 @@
+- name: 'Get started into DevOps World with Docker'
+  venue: online
+  start_date: 26th June
+  start_day: Sat
+  days: 1
+  dates: 26th
+  timing: 6 PM - 7:15 PM NPT
+  members_only: true
 - name: 'HTML & CSS Workshop Batch #2'
   venue: online
   start_date: 6th June
