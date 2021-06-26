@@ -161,3 +161,15 @@
     }
   }
 }
+@media (max-width: 480px) {
+  .blog-post-page {
+    .post-info {
+      font-size: 13px;
+
+      svg {
+        height: 18px;
+        width: 18px;
+      }
+    }
+  }
+}
