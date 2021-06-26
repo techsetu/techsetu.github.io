@@ -1,6 +1,6 @@
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item{% if include.rounded %} rounded-lg{% endif %}"
-    src="https://www.youtube.com/embed/{{ include.id }}" allowfullscreen></iframe>
+    src="https://www.youtube.com/embed/{{ include.id }}{% if include.start %}?start={{ include.start }}{% endif %}" allowfullscreen></iframe>
 </div>
 {% if include.caption %}
   <div class="text-center">
