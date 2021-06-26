@@ -78,8 +78,8 @@
   p {
     color: #555;
     font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 35px;
   }
   .image-wrapper {
     margin: 1.5rem 0;
@@ -124,7 +124,7 @@
     }
   }
   .share, .share a, .share a i {
-    color: blue !important;
+    color: #007bff !important;
   }
   .post-tags {
     padding-left: 0;
@@ -149,7 +149,7 @@
 
 @media (max-width: 768px) {
   .blog-post-page.page-margin {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
   .blog-post-page {
     .share {
