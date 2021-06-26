@@ -7,6 +7,7 @@ url: "https://techsetu.org"
 image_base_url: /assets/img
 thumbnail: thumbnail.jpg
 
+twitter_username: '@tech_setu'
 google_analytics: G-6YGR4H8C5L
 
 permalink: /blogs/:year/:month/:day/:title/

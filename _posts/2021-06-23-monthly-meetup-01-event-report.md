@@ -9,7 +9,7 @@ type: post
 published: true
 author: Bidhya Thapa
 proofreader: BRG
-thumbnail_path: blogs/meetups/meetup-1-thumb.jpg
+thumbnail: blogs/meetups/meetup-1-thumb.jpg
 cover_img: blogs/meetups/meetup-1-thumb.jpg
 ---
 
