@@ -1,0 +1,25 @@
+<div class="col-lg-4 col-md-6 card-group">
+  <div class="card h-100 shadow">
+    <div class="maxthumb">
+      <a href="{{ include.post.url }}">
+        <img src="{{ site.image_base_url }}/{{ include.post.thumbnail_path }}" class="card-img-top" alt="{{ include.post.title }}">
+      </a>
+    </div>
+    <div class="card-body pt-4 px-4 pb-0">
+      <h5 class="card-title">{{ include.post.title }}</h5>
+      <p class="card-text">
+        {{ include.post.content | strip_html | truncate: 100 }} <br>
+        <a href="{{ include.post.url | prepend: site.url }}" class="text-success">Read more &#8594;</a>
+      </p>
+    </div>
+    <div class="card-footer p-4">
+      <span class="mr-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(139, 139, 139, 1);transform:;-ms-filter:"><path d="M12,2C6.579,2,2,6.579,2,12s4.579,10,10,10s10-4.579,10-10S17.421,2,12,2z M12,7c1.727,0,3,1.272,3,3s-1.273,3-3,3 c-1.726,0-3-1.272-3-3S10.274,7,12,7z M6.894,16.772c0.897-1.32,2.393-2.2,4.106-2.2h2c1.714,0,3.209,0.88,4.106,2.2 C15.828,18.14,14.015,19,12,19S8.172,18.14,6.894,16.772z"></path></svg>
+        {{ include.post.author }}</span>
+      <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(132, 132, 132, 1);transform:;-ms-filter:"><path d="M7 11H9V13H7zM7 15H9V17H7zM11 11H13V13H11zM11 15H13V17H11zM15 11H17V13H15zM15 15H17V17H15z"></path><path d="M5,22h14c1.103,0,2-0.897,2-2V8V6c0-1.103-0.897-2-2-2h-2V2h-2v2H9V2H7v2H5C3.897,4,3,4.897,3,6v2v12 C3,21.103,3.897,22,5,22z M19,8l0.001,12H5V8H19z"></path></svg>
+        {{ include.post.date | date: "%b %-d, %Y" }}
+      </span>
+    </div>
+  </div>
+</div>
