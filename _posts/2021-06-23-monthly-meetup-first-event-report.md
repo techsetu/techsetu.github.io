@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Event report for TECH Setu Monthly Meetup #1'
+title: Event report for TECH Setu First Monthly Meetup
 date: 2021-06-23
 tags:
 - meetup
