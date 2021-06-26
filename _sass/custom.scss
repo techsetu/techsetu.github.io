@@ -33,6 +33,9 @@ body {
 .page-margin {
   margin-top: 100px;
 }
+ul {
+  list-style: none;
+}
 a, a:hover {
   text-decoration: none;
 }
@@ -54,8 +57,28 @@ a, a:hover {
 #apply {
   height: 3450px;
 }
+.page-header {
+  background: url($image_base_url + "/page-header-bg.jpg") no-repeat center center/cover;
+  padding: 4rem 0;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff !important;
+    margin-bottom: 0;
+  }
+  span {
+    font-size: 20px;
+    display: block;
+    font-style: italic;
+  }
+}
 
 @import "animate.min";
 @import "workshops";
 @import "home";
+@import "blog";
+@import "util";
 @import "responsive";

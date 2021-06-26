@@ -1,38 +1,64 @@
 ---
-layout: page
+layout: default
+title: Blogs
 ---
 
-<div class="post page-margin">
-  <!-- Wrapper Start -->
-  <section id="intro">
-    <div class="container">
-      <div class="row mx-0">
-        <div class="block">
-          <h1>{{ page.title }}</h1>
-          <div class="post-info-wrapper">
-            <p class="italic">By
-              <span class="bold">{{ page.author }}</span> on
-              <span class="bold">{{ page.date | date: "%b %-d, %Y" }}</span>
+<div class="blog-post-page page-margin">
+  <div class="container my-4">
+    <!-- Wrapper Start -->
+    <div class="row justify-content-center">
+      <div class="col-md-8 post-container py-5">
+        <h3 class="post-title">{{ page.title }}</h3>
+        <div class="row post-info mt-2">
+          <div class="col-md-8 col-sm-12 blog-card-heading">
+            <span class="mr-4"><i class="fas fa-user mr-1"></i>{{ page.author }}</span>
+            <span><i class="fas fa-calendar-alt mr-1"></i>
+              {{ page.date | date: "%b %-d, %Y" }}
+            </span>
+            <small class="text-muted">
               {% include read-time.html
-                          content=content
-                          bracket_start='('
-                          bracket_end=')'
-                          unit='min'
-                          approx='true'
-                          caption='read'
+                         content=content
+                         bracket_start='('
+                         bracket_end=')'
+                         unit='min'
+                         approx='true'
+                         caption='read'
               %}
-            </p>
+            </small>
           </div>
-          <hr />
+        </div>
+        <div class="my-5">
+          {% if page.cover_img %}
+            {% assign cover-img=page.cover_img %}
+            {% assign img-title=page.title %}
+            {% include image.html
+                          path=cover-img
+                          title=img-title
+                          class="full-width"
+            %}
+          {% endif %}
+        </div>
+        <div class="post-body">
           {{ content }}
         </div>
-      </div>
 
-      <div class="row mx-0">
-        <p class="center-text py-3">
-          <a href="{{ site.baseurl }}/blogs">Back to blogs list</a>
-        </p>
+        <ul class="post-tags">
+          {% for tag in page.tags %}
+            <li>
+              {% if page.is_tags_page %}
+                {% assign tag_url_base = "" %}
+              {% else %}
+                {% assign tag_url_base = "/blogs/tags/" %}
+              {% endif %}
+              <a href="{{ tag_url_base }}#{{ tag | uri_escape }}">{{ tag }}</a>{% unless forloop.last %}{% endunless %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-2 post-container">
+        {% include post-share.html %}
       </div>
     </div>
-  </section>
+
+  </div>
 </div>
