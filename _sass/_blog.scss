@@ -9,6 +9,11 @@
     padding: 6rem 0 5rem;
   }
 }
+.blog-post-page {
+  .post-info span {
+    margin-right: 2rem;
+  }
+}
 
 .blogs-page, .blog-tags-page {
   .card-group {
@@ -166,9 +171,21 @@
     .post-info {
       font-size: 13px;
 
+      span {
+        margin-right: 0;
+      }
+
       svg {
         height: 18px;
         width: 18px;
+      }
+    }
+  }
+  .blogs-page {
+    .blogs-body {
+      .card {
+        width: 95%;
+        margin: auto;
       }
     }
   }
