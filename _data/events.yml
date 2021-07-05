@@ -10,6 +10,14 @@ placeholder:
   members_only: TBD
   register_link: # https://forms.gle/Qjpafd8aKzPhzKfQ7 or coming_soon
 upcoming:
+  - name: 'HTML & CSS at YOUAA Campaign'
+    venue: online
+    start_date: 16th July (Shrawan 1)
+    start_day: Fri
+    days: 5
+    dates: 16th, 17th, 18th, 19th, 20th
+    timing: 11 AM - 12:30 PM NPT
+    register_link: https://scholarsspace.com/campaign/htmlcss
   - name: 'Monthly Meetup #2'
     venue: online
     start_date: 10th July
@@ -17,23 +25,15 @@ upcoming:
     days: 1
     dates: 27th, 28th, 29th
     timing: 4 PM - 6 PM NPT
-    register_link: https://forms.gle/EJzENumkWuZpQECJ7
-  - name: 'Members Trainings'
-    venue: online
-    start_date: 27th June
-    start_day: Sun
-    days: 3
-    dates: 27th, 28th, 29th
-    timing: 6 PM - 7:15 PM NPT
-    members_only: true
-  - name: 'Get started into DevOps World with Docker'
-    venue: online
-    start_date: 26th June
-    start_day: Sat
-    days: 1
-    dates: 26th
-    timing: 6 PM - 7:15 PM NPT
-    members_only: true
+    register_link: https://forms.gle/vxASLDA6wgcQ6xVQ9
+  # - name: 'Get started into DevOps World with Docker'
+  #   venue: online
+  #   start_date: 26th June
+  #   start_day: Sat
+  #   days: 1
+  #   dates: 26th
+  #   timing: 6 PM - 7:15 PM NPT
+  #   members_only: true
   # - name: 'Linux Intro, Open Source & Community'
   #   venue: online
   #   start_date: 15th June
@@ -52,6 +52,14 @@ upcoming:
   #   members_only: true
   # register_link: https://forms.gle/GXJu5qoQjfLABZTu9
 past:
+  - name: 'Members Trainings'
+    venue: online
+    start_date: 27th June
+    start_day: Sun
+    days: 3
+    dates: 27th, 28th, 29th
+    timing: 6 PM - 7:15 PM NPT
+    members_only: true
   - name: 'HTML & CSS Workshop Batch #2'
     venue: online
     start_date: 6th June
