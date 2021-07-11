@@ -18,14 +18,6 @@ upcoming:
     dates: 16th, 17th, 18th, 19th, 20th
     timing: 11 AM - 12:30 PM NPT
     register_link: https://scholarsspace.com/campaign/htmlcss
-  - name: 'Monthly Meetup #2'
-    venue: online
-    start_date: 10th July
-    start_day: Sat
-    days: 1
-    dates: 27th, 28th, 29th
-    timing: 4 PM - 6 PM NPT
-    register_link: https://forms.gle/vxASLDA6wgcQ6xVQ9
   # - name: 'Get started into DevOps World with Docker'
   #   venue: online
   #   start_date: 26th June
@@ -52,6 +44,14 @@ upcoming:
   #   members_only: true
   # register_link: https://forms.gle/GXJu5qoQjfLABZTu9
 past:
+  - name: 'Monthly Meetup #2'
+    venue: online
+    start_date: 10th July
+    start_day: Sat
+    days: 1
+    dates: 27th, 28th, 29th
+    timing: 4 PM - 6 PM NPT
+    register_link: https://forms.gle/vxASLDA6wgcQ6xVQ9
   - name: 'Members Trainings'
     venue: online
     start_date: 27th June
