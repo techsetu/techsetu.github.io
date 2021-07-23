@@ -1,0 +1,25 @@
+// page level css
+
+// team page
+.team-page {
+  .card {
+    border: 0;
+
+    .card-body {
+      padding: 1rem 0;
+      text-align: center;
+
+      .member-name {
+        font-size: 15px;
+      }
+      .designation {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #666;
+      }
+      .contact-links a .bx {
+        font-size: 18px;
+      }
+    }
+  }
+}

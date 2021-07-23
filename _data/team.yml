@@ -1,17 +1,3 @@
-- name: Asim Tara Pathak
-  designation: Executive Member
-  img: asim.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/asim-tara-pathak/
-      icon: bx bxl-linkedin
-    - label: GitHub
-      url: https://github.com/asimtarapathak
-      icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/asim.atp
-      icon: bx bxl-facebook
-
 - name: Bidhya Thapa
   designation: Executive Member
   img: bidhya.jpg
@@ -34,54 +20,18 @@
       url: https://www.facebook.com/basantaad817
       icon: bx bxl-facebook
 
-- name: Ashok Yadav
+- name: Asim Tara Pathak
   designation: Executive Member
-  img: ashok.jpg
+  img: asim.jpg
   contacts:
     - label: LinkedIn
-      url: https://www.linkedin.com/in/ashok-yadav-b09378121/
-      icon: bx bxl-linkedin
-    - label: Facebook
-      url: https://www.facebook.com/AshokYdav21
-      icon: bx bxl-facebook
-
-# - name: Shivani Thapa
-#   designation: Executive Member
-#   img: shivani.jpg
-#   contacts:
-#     - label: LinkedIn
-#       url: https://linkedin.com/in/jeshikabasnet
-#       icon: bx bxl-linkedin
-#     - label: GitHub
-#       url: https://github.com/Jessica-basnet
-#       icon: bx bxl-github
-#     - label: Facebook
-#       url: https://www.facebook.com/shivan.thapa.986
-#       icon: bx bxl-facebook
-
-- name: Twinkle Gurung
-  designation: Executive Member
-  img: twinkle.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/twinkle-gurung-8216371a4/
-      icon: bx bxl-linkedin
-    - label: Facebook
-      url: https://www.facebook.com/twincal.grg.1
-      icon: bx bxl-facebook
-
-- name: Pankaj Binod Thapaliya
-  designation: Executive Member
-  img: pankaj.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/pankaj-thapaliya/
+      url: https://www.linkedin.com/in/asim-tara-pathak/
       icon: bx bxl-linkedin
     - label: GitHub
-      url: https://github.com/pankaj485
+      url: https://github.com/asimtarapathak
       icon: bx bxl-github
     - label: Facebook
-      url: https://www.facebook.com/pankajthapaliya2
+      url: https://www.facebook.com/asim.atp
       icon: bx bxl-facebook
 
 - name: Anjali Neupane
@@ -98,16 +48,41 @@
       url: https://www.facebook.com/neupane.anjali1
       icon: bx bxl-facebook
 
-# - name: Jenu Oli
-#   designation: Executive Member
-#   img: jenu.jpg
-#   contacts:
-#     - label: LinkedIn
-#       url: https://www.linkedin.com/in/anjaliineupane
-#       icon: bx bxl-linkedin
-#     - label: Facebook
-#       url: https://www.facebook.com/neupane.anjali1
-#       icon: bx bxl-facebook
+- name: Ashok Yadav
+  designation: Executive Member
+  img: ashok.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/ashok-yadav-b09378121/
+      icon: bx bxl-linkedin
+    - label: Facebook
+      url: https://www.facebook.com/AshokYdav21
+      icon: bx bxl-facebook
+
+- name: Pankaj Binod Thapaliya
+  designation: Executive Member
+  img: pankaj.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/pankaj-thapaliya/
+      icon: bx bxl-linkedin
+    - label: GitHub
+      url: https://github.com/pankaj485
+      icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/pankajthapaliya2
+      icon: bx bxl-facebook
+
+- name: Twinkle Gurung
+  designation: Executive Member
+  img: twinkle.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/twinkle-gurung-8216371a4/
+      icon: bx bxl-linkedin
+    - label: Facebook
+      url: https://www.facebook.com/twincal.grg.1
+      icon: bx bxl-facebook
 
 - name: Jessica Basnet
   designation: Executive Member
@@ -121,4 +96,96 @@
       icon: bx bxl-github
     - label: Facebook
       url: https://www.facebook.com/jessy.tensab
+      icon: bx bxl-facebook
+
+- name: Jenu Oli
+  designation: Executive Member
+  img: jenu.jpg
+  contacts:
+    # - label: LinkedIn
+    #   url: https://www.linkedin.com/in/
+    #   icon: bx bxl-linkedin
+    - label: Facebook
+      url: https://www.facebook.com/jenu.oli.5
+      icon: bx bxl-facebook
+
+- name: Samrat Pudasaini
+  designation: Executive Member
+  img: samrat.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/samrat-pudasaini/
+      icon: bx bxl-linkedin
+    - label: Facebook
+      url: https://www.facebook.com/samrat.pudasaini.5
+      icon: bx bxl-facebook
+
+- name: Ebraj Gurung
+  designation: Executive Member
+  img: ebraj.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/ebrajgrg/
+      icon: bx bxl-linkedin
+    - label: GitHub
+      url: https://github.com/Ebraj
+      icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/anizh.gurung.7
+      icon: bx bxl-facebook
+
+- name: Jharna Adhikari
+  designation: Executive Member
+  img: jharna.jpg
+  contacts:
+    # - label: LinkedIn
+    #   url: https://www.linkedin.com/in/
+    #   icon: bx bxl-linkedin
+    # - label: GitHub
+    #   url: https://github.com/
+    #   icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/jharna.adhikare
+      icon: bx bxl-facebook
+
+- name: Nilam Pathak
+  designation: Executive Member
+  img: nilam.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/nilam-pathak-2b1a101a2/
+      icon: bx bxl-linkedin
+    # - label: GitHub
+    #   url: https://github.com/
+    #   icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/nilam.pathak.399
+      icon: bx bxl-facebook
+
+- name: Prashant Khatiwada
+  designation: General Member
+  img: prashant.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/prashantkhatiwada10/
+      icon: bx bxl-linkedin
+    # - label: GitHub
+    #   url: https://github.com/
+    #   icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/prashanta.khatiwada.1
+      icon: bx bxl-facebook
+
+- name: Sangeet Neupane
+  designation: General Member
+  img: sangeet.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/sangeet-neupane-233433215/
+      icon: bx bxl-linkedin
+    # - label: GitHub
+    #   url: https://github.com/
+    #   icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/sangeet.neupane.52
       icon: bx bxl-facebook
