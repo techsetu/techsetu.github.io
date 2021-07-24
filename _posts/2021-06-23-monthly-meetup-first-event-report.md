@@ -4,6 +4,7 @@ title: Event report for TECH Setu First Monthly Meetup
 date: 2021-06-23
 tags:
 - meetup
+- event
 status: publish
 type: post
 published: true
