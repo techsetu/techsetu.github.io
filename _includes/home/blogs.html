@@ -1,0 +1,23 @@
+<section class="recent-blogs section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header text-center">
+          <h1 class="mb-1">Recent Blogs</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      {% for post in site.posts limit: 3 %}
+        {% include home/home-post-outline.html post=post %}
+      {% endfor %}
+    </div>
+
+    <div class="row justify-content-center text-center">
+      <div class="col-md-6">
+        <a href="/blogs" class="btn btn-info px-3">Read All</a>
+      </div>
+    </div>
+  </div>
+</section>
