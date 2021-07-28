@@ -10,14 +10,14 @@ placeholder:
   members_only: TBD
   register_link: # https://forms.gle/Qjpafd8aKzPhzKfQ7 or coming_soon
 upcoming:
-  - name: 'HTML & CSS at YOUAA Campaign'
+  - name: 'Monthly Meetup #3'
     venue: online
-    start_date: 16th July (Shrawan 1)
-    start_day: Fri
-    days: 5
-    dates: 16th, 17th, 18th, 19th, 20th
-    timing: 11 AM - 12:30 PM NPT
-    register_link: https://scholarsspace.com/campaign/htmlcss
+    start_date: 14th August
+    start_day: Sat
+    days: 1
+    dates: 14th
+    timing: 4 PM - 6 PM NPT
+    register_link: https://forms.gle/wA3gbeCqeQ8NjR9NA
   # - name: 'Get started into DevOps World with Docker'
   #   venue: online
   #   start_date: 26th June
@@ -44,6 +44,14 @@ upcoming:
   #   members_only: true
   # register_link: https://forms.gle/GXJu5qoQjfLABZTu9
 past:
+  - name: 'HTML & CSS at YOUAA Campaign'
+    venue: online
+    start_date: 16th July (Shrawan 1)
+    start_day: Fri
+    days: 5
+    dates: 16th, 17th, 18th, 19th, 20th
+    timing: 11 AM - 12:30 PM NPT
+    register_link: https://scholarsspace.com/campaign/htmlcss
   - name: 'Monthly Meetup #2'
     venue: online
     start_date: 10th July
