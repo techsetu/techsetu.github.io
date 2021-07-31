@@ -189,3 +189,54 @@
     - label: Facebook
       url: https://www.facebook.com/sangeet.neupane.52
       icon: bx bxl-facebook
+
+- name: Kishor KC
+  designation: Executive Member
+  img: kishor.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/kishor-kc-502422210
+      icon: bx bxl-linkedin
+    # - label: GitHub
+    #   url: https://github.com/
+    #   icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/profile.php?id=100008133948970
+      icon: bx bxl-facebook
+    - label: Twitter
+      url: http://twitter.com/devkishor8007
+      icon: bx bxl-twitter
+
+- name: Sonia Bastola
+  designation: General Member
+  img: sonia.jpg
+  contacts:
+    # - label: LinkedIn
+    #   url: https://www.linkedin.com/in/Soniabastola
+    #   icon: bx bxl-linkedin
+    # - label: GitHub
+    #   url: https://github.com/sonia-bastola
+    #   icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/Sonia.bastola
+      icon: bx bxl-facebook
+    # - label: Twitter
+    #   url: http://twitter.com/Sonia.bastola
+    #   icon: bx bxl-twitter
+
+- name: Sisam Gautam
+  designation: Executive Member
+  img: sisam.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/sisam-gautam-935a461a5/
+      icon: bx bxl-linkedin
+    - label: GitHub
+      url: https://github.com/Sisamgtm07
+      icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/sisam.gautam/
+      icon: bx bxl-facebook
+    # - label: Twitter
+    #   url: http://twitter.com/Sonia.bastola
+    #   icon: bx bxl-twitter
