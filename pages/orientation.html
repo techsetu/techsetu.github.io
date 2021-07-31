@@ -1,0 +1,31 @@
+---
+layout: default
+title: Member's Orientation
+permalink: /orientation/
+page_name: others
+---
+
+<div class="team-page page-margin mb-5">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <h1 class="mb-0">Member's Orientation</h1>
+      <p class="mb-0 font-secondary">
+        Know about our organization, mission, vision, culture and how we work
+      </p>
+    </div>
+    <div class="row justify-content-center">
+      {% for item in site.data.orientation %}
+        <div class="col-md-6 mb-5">
+          <div class="card shadow h-100">
+            {% include util/embed-youtube.html id=item.id %}
+            <div class="card-body px-3 pt-0 pb-3">
+              <div class="person-info">
+                <h5 class="member-name mb-1">{{ item.title }}</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
