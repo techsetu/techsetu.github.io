@@ -14,7 +14,17 @@ page_name: others
       </p>
     </div>
     <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 justify-content-center">
-      {% for team in site.data.team %}
+      {% assign teams = site.data.team.leaders %}
+      {% assign teams = teams | concat: site.data.team.executives %}
+
+      {% for team in teams %}
+        {% include team-member.html team=team %}
+      {% endfor %}
+
+      {% assign teams = site.data.team.associates %}
+      {% assign teams = teams | concat: site.data.team.general %}
+
+      {% for team in teams %}
         {% include team-member.html team=team %}
       {% endfor %}
     </div>

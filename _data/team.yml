@@ -1,242 +1,439 @@
-- name: Bidhya Thapa
-  designation: Executive Member
-  img: bidhya.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/bidhya-thapa-a9a01b195/
-      icon: bx bxl-linkedin
-    - label: Facebook
-      url: https://www.facebook.com/bidhya.thapa.587
-      icon: bx bxl-facebook
+leaders:
+  - name: Bidhya Thapa
+    designation: President
+    img: bidhya.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/bidhya-thapa-a9a01b195/
+        icon: bx bxl-linkedin
+      - label: Facebook
+        url: https://www.facebook.com/bidhya.thapa.587
+        icon: bx bxl-facebook
 
-- name: Basanta Adhikari
-  designation: Executive Member
-  img: basanta.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/basantaad817/
-      icon: bx bxl-linkedin
-    - label: Facebook
-      url: https://www.facebook.com/basantaad817
-      icon: bx bxl-facebook
+  - name: Samrat Pudasaini
+    designation: Vice President
+    img: samrat.jpg
+    contacts:
+      - label: Facebook
+        url: https://www.facebook.com/samratiam
+        icon: bx bxl-facebook
+      - label: GitHub
+        url: https://github.com/samratiam
+        icon: bx bxl-github
+      - label: Twitter
+        url: http://twitter.com/samratiam01
+        icon: bx bxl-twitter
 
-- name: Asim Tara Pathak
-  designation: Executive Member
-  img: asim.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/asim-tara-pathak/
-      icon: bx bxl-linkedin
-    - label: GitHub
-      url: https://github.com/asimtarapathak
-      icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/asim.atp
-      icon: bx bxl-facebook
+  - name: Anjali Neupane
+    designation: Design Team Lead
+    img: anjali.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/anjaliineupane
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/Anjalinpn
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/neupane.anjali1
+        icon: bx bxl-facebook
 
-- name: Anjali Neupane
-  designation: Executive Member
-  img: anjali.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/anjaliineupane
-      icon: bx bxl-linkedin
-    - label: GitHub
-      url: https://github.com/Anjalinpn
-      icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/neupane.anjali1
-      icon: bx bxl-facebook
+  - name: Pankaj Thapaliya
+    designation: Web Team Lead
+    img: pankaj.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/pankaj-thapaliya/
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/pankaj485
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/pankajthapaliya2
+        icon: bx bxl-facebook
 
-- name: Ashok Yadav
-  designation: Executive Member
-  img: ashok.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/ashok-yadav-b09378121/
-      icon: bx bxl-linkedin
-    - label: Facebook
-      url: https://www.facebook.com/AshokYdav21
-      icon: bx bxl-facebook
+executives:
+  - name: Basanta Adhikari
+    designation: Executive Member
+    img: basanta.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/basantaad817/
+        icon: bx bxl-linkedin
+      - label: Facebook
+        url: https://www.facebook.com/basantaad817
+        icon: bx bxl-facebook
 
-- name: Pankaj Binod Thapaliya
-  designation: Executive Member
-  img: pankaj.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/pankaj-thapaliya/
-      icon: bx bxl-linkedin
-    - label: GitHub
-      url: https://github.com/pankaj485
-      icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/pankajthapaliya2
-      icon: bx bxl-facebook
+  - name: Ashok Yadav
+    designation: Executive Member
+    img: ashok.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/ashok-yadav-b09378121/
+        icon: bx bxl-linkedin
+      - label: Facebook
+        url: https://www.facebook.com/AshokYdav21
+        icon: bx bxl-facebook
 
-- name: Twinkle Gurung
-  designation: Executive Member
-  img: twinkle.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/twinkle-gurung-8216371a4/
-      icon: bx bxl-linkedin
-    - label: Facebook
-      url: https://www.facebook.com/twincal.grg.1
-      icon: bx bxl-facebook
+  - name: Twinkle Gurung
+    designation: Executive Member
+    img: twinkle.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/twinkle-gurung-8216371a4/
+        icon: bx bxl-linkedin
+      - label: Facebook
+        url: https://www.facebook.com/twincal.grg.1
+        icon: bx bxl-facebook
 
-- name: Jessica Basnet
-  designation: Executive Member
-  img: jessica.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://linkedin.com/in/jeshikabasnet
-      icon: bx bxl-linkedin
-    - label: GitHub
-      url: https://github.com/Jessica-basnet
-      icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/jessy.tensab
-      icon: bx bxl-facebook
+  - name: Jessica Basnet
+    designation: Executive Member
+    img: jessica.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://linkedin.com/in/jeshikabasnet
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/Jessica-basnet
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/jessy.tensab
+        icon: bx bxl-facebook
 
-- name: Jenu Oli
-  designation: Executive Member
-  img: jenu.jpg
-  contacts:
-    # - label: LinkedIn
-    #   url: https://www.linkedin.com/in/
-    #   icon: bx bxl-linkedin
-    - label: Facebook
-      url: https://www.facebook.com/jenu.oli.5
-      icon: bx bxl-facebook
+  - name: Jenu Oli
+    designation: Executive Member
+    img: jenu.jpg
+    contacts:
+      # - label: LinkedIn
+      #   url: https://www.linkedin.com/in/
+      #   icon: bx bxl-linkedin
+      - label: Facebook
+        url: https://www.facebook.com/jenu.oli.5
+        icon: bx bxl-facebook
 
-- name: Samrat Pudasaini
-  designation: Executive Member
-  img: samrat.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/samrat-pudasaini/
-      icon: bx bxl-linkedin
-    - label: Facebook
-      url: https://www.facebook.com/samrat.pudasaini.5
-      icon: bx bxl-facebook
+  - name: Ebraj Gurung
+    designation: Executive Member
+    img: ebraj.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/ebrajgrg/
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/Ebraj
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/anizh.gurung.7
+        icon: bx bxl-facebook
 
-- name: Ebraj Gurung
-  designation: Executive Member
-  img: ebraj.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/ebrajgrg/
-      icon: bx bxl-linkedin
-    - label: GitHub
-      url: https://github.com/Ebraj
-      icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/anizh.gurung.7
-      icon: bx bxl-facebook
+  - name: Jharna Adhikari
+    designation: Executive Member
+    img: jharna.jpg
+    contacts:
+      # - label: LinkedIn
+      #   url: https://www.linkedin.com/in/
+      #   icon: bx bxl-linkedin
+      # - label: GitHub
+      #   url: https://github.com/
+      #   icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/jharna.adhikare
+        icon: bx bxl-facebook
 
-- name: Jharna Adhikari
-  designation: Executive Member
-  img: jharna.jpg
-  contacts:
-    # - label: LinkedIn
-    #   url: https://www.linkedin.com/in/
-    #   icon: bx bxl-linkedin
-    # - label: GitHub
-    #   url: https://github.com/
-    #   icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/jharna.adhikare
-      icon: bx bxl-facebook
+  - name: Nilam Pathak
+    designation: Executive Member
+    img: nilam.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/nilam-pathak-2b1a101a2/
+        icon: bx bxl-linkedin
+      # - label: GitHub
+      #   url: https://github.com/
+      #   icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/nilam.pathak.399
+        icon: bx bxl-facebook
 
-- name: Nilam Pathak
-  designation: Executive Member
-  img: nilam.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/nilam-pathak-2b1a101a2/
-      icon: bx bxl-linkedin
-    # - label: GitHub
-    #   url: https://github.com/
-    #   icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/nilam.pathak.399
-      icon: bx bxl-facebook
+  - name: Kishor KC
+    designation: Executive Member
+    img: kishor.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/devkishor8007/
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/devkishor8007
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/profile.php?id=100008133948970
+        icon: bx bxl-facebook
+      - label: Twitter
+        url: https://twitter.com/devkishor8007
+        icon: bx bxl-twitter
 
-- name: Prashant Khatiwada
-  designation: General Member
-  img: prashant.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/prashantkhatiwada10/
-      icon: bx bxl-linkedin
-    # - label: GitHub
-    #   url: https://github.com/
-    #   icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/prashanta.khatiwada.1
-      icon: bx bxl-facebook
+associates:
+  - name: Prashant Khatiwada
+    designation: Associate Member
+    img: prashant.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/prashantkhatiwada10/
+        icon: bx bxl-linkedin
+      # - label: GitHub
+      #   url: https://github.com/
+      #   icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/prashanta.khatiwada.1
+        icon: bx bxl-facebook
 
-- name: Sangeet Neupane
-  designation: General Member
-  img: sangeet.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/sangeet-neupane-233433215/
-      icon: bx bxl-linkedin
-    # - label: GitHub
-    #   url: https://github.com/
-    #   icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/sangeet.neupane.52
-      icon: bx bxl-facebook
+  - name: Sangeet Neupane
+    designation: Associate Member
+    img: sangeet.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/sangeet-neupane-233433215/
+        icon: bx bxl-linkedin
+      # - label: GitHub
+      #   url: https://github.com/
+      #   icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/sangeet.neupane.52
+        icon: bx bxl-facebook
 
-- name: Kishor KC
-  designation: Executive Member
-  img: kishor.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/kishor-kc-502422210
-      icon: bx bxl-linkedin
-    # - label: GitHub
-    #   url: https://github.com/
-    #   icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/profile.php?id=100008133948970
-      icon: bx bxl-facebook
-    - label: Twitter
-      url: http://twitter.com/devkishor8007
-      icon: bx bxl-twitter
+  - name: Niyoj Oli
+    designation: Associate Member
+    img: niyoj.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/niyoj
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/niyoj
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/oli.niyoj
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/Sonia.bastola
+      #   icon: bx bxl-twitter
 
-- name: Sonia Bastola
-  designation: General Member
-  img: sonia.jpg
-  contacts:
-    # - label: LinkedIn
-    #   url: https://www.linkedin.com/in/Soniabastola
-    #   icon: bx bxl-linkedin
-    # - label: GitHub
-    #   url: https://github.com/sonia-bastola
-    #   icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/Sonia.bastola
-      icon: bx bxl-facebook
-    # - label: Twitter
-    #   url: http://twitter.com/Sonia.bastola
-    #   icon: bx bxl-twitter
+  - name: Sisam Gautam
+    designation: Associate Member
+    img: sisam.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/sisam-gautam-935a461a5/
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/Sisamgtm07
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/sisam.gautam/
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/Sonia.bastola
+      #   icon: bx bxl-twitter
 
-- name: Sisam Gautam
-  designation: Executive Member
-  img: sisam.jpg
-  contacts:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/sisam-gautam-935a461a5/
-      icon: bx bxl-linkedin
-    - label: GitHub
-      url: https://github.com/Sisamgtm07
-      icon: bx bxl-github
-    - label: Facebook
-      url: https://www.facebook.com/sisam.gautam/
-      icon: bx bxl-facebook
-    # - label: Twitter
-    #   url: http://twitter.com/Sonia.bastola
-    #   icon: bx bxl-twitter
+  - name: Deekshya Ghimire
+    designation: Associate Member
+    img: deekshya.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/deekshya-ghimire18/
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/Deekshya18
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/deekshya.ghimire.17
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/Sonia.bastola
+      #   icon: bx bxl-twitter
+
+general:
+  - name: Sonia Bastola
+    designation: General Member
+    img: sonia.jpg
+    contacts:
+      # - label: LinkedIn
+      #   url: https://www.linkedin.com/in/Soniabastola
+      #   icon: bx bxl-linkedin
+      # - label: GitHub
+      #   url: https://github.com/sonia-bastola
+      #   icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/Sonia.bastola
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/Sonia.bastola
+      #   icon: bx bxl-twitter
+
+  - name: Sarina Sindurakar
+    designation: General Member
+    img: sarina.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/sarinasindurakar
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/sarinasindurakar
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/sarinasindurakar
+        icon: bx bxl-facebook
+      - label: Twitter
+        url: http://twitter.com/sarinasinduraka
+        icon: bx bxl-twitter
+
+  - name: Samjhana Ghimire
+    designation: General Member
+    img: samjhana.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/samjhana-ghimire-266410216
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/SanjanaGhimire
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/samjhana.ghimire.12914
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/Sonia.bastola
+      #   icon: bx bxl-twitter
+
+  - name: Prakriti Gurung
+    designation: General Member
+    img: prakriti.jpg
+    contacts:
+      # - label: LinkedIn
+      #   url: https://www.linkedin.com/in/sisam-gautam-935a461a5/
+      #   icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/Prakritigrg
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/prashika.gurung.1
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/Sonia.bastola
+      #   icon: bx bxl-twitter
+
+  - name: Kristina Bhandari
+    designation: General Member
+    img: kristina.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/kristina-bhandari-5a7537214
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/kristena596
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/kreyestena.bhandari.7
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/raghavdahal13
+      #   icon: bx bxl-twitter
+
+  - name: Bishal Tamang
+    designation: General Member
+    img: bishal.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/bishalt87
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/bishalt87
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/bishalt87
+        icon: bx bxl-facebook
+      - label: Twitter
+        url: http://twitter.com/bishalt87
+        icon: bx bxl-twitter
+
+  - name: Jeebash Giri
+    designation: General Member
+    img: jeebash.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/jeebash-giri-4b5552209
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/hsabeej
+        icon: bx bxl-github
+      # - label: Facebook
+      #   url: https://www.facebook.com/jeebashgiri77
+      #   icon: bx bxl-facebook
+      - label: Twitter
+        url: http://twitter.com/girijeebash
+        icon: bx bxl-twitter
+
+  - name: Raghav Dahal
+    designation: General Member
+    img: raghav.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/raghav-dahal-36a294219/
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/raghav977
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/biraj.birajdahal
+        icon: bx bxl-facebook
+      - label: Twitter
+        url: http://twitter.com/raghavdahal13
+        icon: bx bxl-twitter
+
+  - name: Bishal Dhakal
+    designation: General Member
+    img: bishal-dhakal.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/bishal-dhakal-4052a3185
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/Bishal24724
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/bishal.dhakal401
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/raghavdahal13
+      #   icon: bx bxl-twitter
+
+  - name: Shrijana Magar
+    designation: General Member
+    img: shrijana.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/shrijana-thapa-magar-763b911ba/
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/shrijana-thapa
+        icon: bx bxl-github
+      # - label: Facebook
+      #   url: https://www.facebook.com/bishal.dhakal401
+      #   icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/raghavdahal13
+      #   icon: bx bxl-twitter
+
+  - name: Isha Shakya
+    designation: General Member
+    img: isha.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/isha-shakya
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/Isha-Shakya
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/isha.shakya.1
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/raghavdahal13
+      #   icon: bx bxl-twitter

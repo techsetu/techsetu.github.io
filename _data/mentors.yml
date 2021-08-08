@@ -1,0 +1,24 @@
+- name: Budh Ram Gurung
+  designation: Mentor and Advisor
+  img: brg.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/mentorbrg
+      icon: bx bxl-linkedin
+    - label: Facebook
+      url: https://www.facebook.com/mentorbrg
+      icon: bx bxl-facebook
+
+- name: Asim Tara Pathak
+  designation: Mentor
+  img: asim.jpg
+  contacts:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/asim-tara-pathak/
+      icon: bx bxl-linkedin
+    - label: GitHub
+      url: https://github.com/asimtarapathak
+      icon: bx bxl-github
+    - label: Facebook
+      url: https://www.facebook.com/asim.atp
+      icon: bx bxl-facebook
