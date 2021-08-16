@@ -703,9 +703,9 @@ general:
       - label: GitHub
         url: https://github.com/nirutadahal802
         icon: bx bxl-github
-      - label: Facebook
-        url: https://www.facebook.com/NirutaDahal.404
-        icon: bx bxl-facebook
+      # - label: Facebook
+      #   url: https://www.facebook.com/NirutaDahal.404
+      #   icon: bx bxl-facebook
       # - label: Twitter
       #   url: http://twitter.com/
       #   icon: bx bxl-twitter
