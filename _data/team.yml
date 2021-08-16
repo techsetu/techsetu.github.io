@@ -540,22 +540,22 @@ general:
       #   url: http://twitter.com/
       #   icon: bx bxl-twitter
 
-  - name: Anupa Gurung
-    designation: General Member
-    img: anupa-gurung.jpg
-    contacts:
-      # - label: LinkedIn
-      #   url: https://www.linkedin.com/in/
-      #   icon: bx bxl-linkedin
-      # - label: GitHub
-      #   url: https://github.com/
-      #   icon: bx bxl-github
-      - label: Facebook
-        url: https://www.facebook.com/Anupa
-        icon: bx bxl-facebook
-      # - label: Twitter
-      #   url: http://twitter.com/
-      #   icon: bx bxl-twitter
+  # - name: Anupa Gurung
+  #   designation: General Member
+  #   img: anupa-gurung.jpg
+  #   contacts:
+  #     # - label: LinkedIn
+  #     #   url: https://www.linkedin.com/in/
+  #     #   icon: bx bxl-linkedin
+  #     # - label: GitHub
+  #     #   url: https://github.com/
+  #     #   icon: bx bxl-github
+  #     - label: Facebook
+  #       url: https://www.facebook.com/Anupa
+  #       icon: bx bxl-facebook
+  #     # - label: Twitter
+  #     #   url: http://twitter.com/
+  #     #   icon: bx bxl-twitter
 
   - name: Roshan Adhikari
     designation: General Member
@@ -621,9 +621,9 @@ general:
       - label: Facebook
         url: https://www.facebook.com/prativa.marasini.9
         icon: bx bxl-facebook
-      - label: Twitter
-        url: http://twitter.com/
-        icon: bx bxl-twitter
+      # - label: Twitter
+      #   url: http://twitter.com/
+      #   icon: bx bxl-twitter
 
   # - name: Rakshya kunwar
   #   designation: General Member
@@ -664,7 +664,7 @@ general:
     img: pashupati-baniya.jpg
     contacts:
       - label: LinkedIn
-        url: www.linkedin.com/in/pashupatibaniya2
+        url: https://www.linkedin.com/in/pashupatibaniya2
         icon: bx bxl-linkedin
       - label: GitHub
         url: https://github.com/pashupatibaniya2
@@ -732,14 +732,14 @@ general:
     img: samrat-jung.jpg
     contacts:
       - label: LinkedIn
-        url: linkedin.com/in/samrat-jung-aidi-689400132
+        url: https://www.linkedin.com/in/samrat-jung-aidi-689400132
         icon: bx bxl-linkedin
       - label: GitHub
         url: https://github.com/SamratArees
         icon: bx bxl-github
-      - label: Facebook
-        url: https://www.facebook.com/samratarees
-        icon: bx bxl-facebook
+      # - label: Facebook
+      #   url: https://www.facebook.com/samratarees
+      #   icon: bx bxl-facebook
       # - label: Twitter
       #   url: http://twitter.com/
       #   icon: bx bxl-twitter
@@ -749,7 +749,7 @@ general:
     img: smriti-khadka.jpg
     contacts:
       - label: LinkedIn
-        url: www.linkedin.com/in/smriti-khadka
+        url: https://www.linkedin.com/in/smriti-khadka
         icon: bx bxl-linkedin
       - label: GitHub
         url: https://github.com/smritiii-ai
