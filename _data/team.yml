@@ -178,11 +178,11 @@ associates:
       - label: LinkedIn
         url: https://www.linkedin.com/in/prashantkhatiwada10/
         icon: bx bxl-linkedin
-      # - label: GitHub
-      #   url: https://github.com/
-      #   icon: bx bxl-github
+      - label: GitHub
+        url: https://github.com/PrashantKhatiwada
+        icon: bx bxl-github
       - label: Facebook
-        url: https://www.facebook.com/prashanta.khatiwada.1
+        url: https://www.facebook.com/PrashantKhatiwada7
         icon: bx bxl-facebook
 
   - name: Sangeet Neupane
