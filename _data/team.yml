@@ -489,23 +489,6 @@ general:
       #   url: http://twitter.com/mavsmanish9
       #   icon: bx bxl-twitter
 
-  # - name: Apsara Basnet
-  #   designation: General Member
-  #   img: apsara-basnet.jpg
-  #   contacts:
-  #     # - label: LinkedIn
-  #     #   url: https://www.linkedin.com/in/Apsara Basnet
-  #     #   icon: bx bxl-linkedin
-  #     - label: GitHub
-  #       url: https://github.com/Apsara-Basnet
-  #       icon: bx bxl-github
-  #     - label: Facebook
-  #       url: https://www.facebook.com/Apsara Basnet
-  #       icon: bx bxl-facebook
-  #     # - label: Twitter
-  #     #   url: http://twitter.com/
-  #     #   icon: bx bxl-twitter
-
   - name: Santoshi Banjara
     designation: General Member
     img: santoshi-banjara.jpg
@@ -539,23 +522,6 @@ general:
       # - label: Twitter
       #   url: http://twitter.com/
       #   icon: bx bxl-twitter
-
-  # - name: Anupa Gurung
-  #   designation: General Member
-  #   img: anupa-gurung.jpg
-  #   contacts:
-  #     # - label: LinkedIn
-  #     #   url: https://www.linkedin.com/in/
-  #     #   icon: bx bxl-linkedin
-  #     # - label: GitHub
-  #     #   url: https://github.com/
-  #     #   icon: bx bxl-github
-  #     - label: Facebook
-  #       url: https://www.facebook.com/Anupa
-  #       icon: bx bxl-facebook
-  #     # - label: Twitter
-  #     #   url: http://twitter.com/
-  #     #   icon: bx bxl-twitter
 
   - name: Roshan Adhikari
     designation: General Member
@@ -625,40 +591,6 @@ general:
       #   url: http://twitter.com/
       #   icon: bx bxl-twitter
 
-  # - name: Rakshya kunwar
-  #   designation: General Member
-  #   img: rakshya-kunwar.jpg
-  #   contacts:
-  #     - label: LinkedIn
-  #       url: https://www.linkedin.com/in/Rakshya kunwar
-  #       icon: bx bxl-linkedin
-  #     - label: GitHub
-  #       url: https://github.com/Rakshya10
-  #       icon: bx bxl-github
-  #     - label: Facebook
-  #       url: https://www.facebook.com/Rakshya kunwar
-  #       icon: bx bxl-facebook
-  #     - label: Twitter
-  #       url: http://twitter.com/Rakshya_rana5
-  #       icon: bx bxl-twitter
-
-  # - name: Bhumika Rai
-  #   designation: General Member
-  #   img: bhumika.jpg
-  #   contacts:
-  #     - label: LinkedIn
-  #       url: https://www.linkedin.com/in/Bhumika Rai
-  #       icon: bx bxl-linkedin
-  #     - label: GitHub
-  #       url: https://github.com/Bhumeekarai
-  #       icon: bx bxl-github
-  #     - label: Facebook
-  #       url: https://www.facebook.com/Bhumika Rai
-  #       icon: bx bxl-facebook
-  #     # - label: Twitter
-  #     #   url: http://twitter.com/
-  #     #   icon: bx bxl-twitter
-
   - name: Pashupati Baniya
     designation: General Member
     img: pashupati-baniya.jpg
@@ -709,23 +641,6 @@ general:
       # - label: Twitter
       #   url: http://twitter.com/
       #   icon: bx bxl-twitter
-
-  # - name: Kundan Shahi
-  #   designation: General Member
-  #   img: kundan-shahi.jpg
-  #   contacts:
-  #     # - label: LinkedIn
-  #     #   url: https://www.linkedin.com/in/
-  #     #   icon: bx bxl-linkedin
-  #     # - label: GitHub
-  #     #   url: https://github.com/
-  #     # icon: bx bxl-github
-  #     - label: Facebook
-  #       url: https://www.facebook.com/Kundan Shahi
-  #       icon: bx bxl-facebook
-  #     # - label: Twitter
-  #     #   url: http://twitter.com/
-  #     #   icon: bx bxl-twitter
 
   - name: Samrat Jung Aidi
     designation: General Member
@@ -778,23 +693,6 @@ general:
       #   url: http://twitter.com/
       #   icon: bx bxl-twitter
 
-  # - name: Binjala Yadav
-  #   designation: General Member
-  #   img: binjala-yadav.jpg
-  #   contacts:
-  #     - label: LinkedIn
-  #       url: https://www.linkedin.com/in/Binjala Yadav
-  #       icon: bx bxl-linkedin
-  #     - label: GitHub
-  #       url: https://github.com/Binjala Yadav
-  #       icon: bx bxl-github
-  #     - label: Facebook
-  #       url: https://www.facebook.com/Benzala Yadav
-  #       icon: bx bxl-facebook
-  #     - label: Twitter
-  #       url: http://twitter.com/Binjala Yadav
-  #       icon: bx bxl-twitter
-
   - name: Nitesh Devkota
     designation: General Member
     img: nitesh-devkota.jpg
@@ -807,6 +705,108 @@ general:
         icon: bx bxl-github
       - label: Facebook
         url: https://www.facebook.com/nitzech
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/
+      #   icon: bx bxl-twitter
+
+  - name: Apsara Basnet
+    designation: General Member
+    img: apsara-basnet.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/apsara-basnet-252050218
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/Apsara-Basnet
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/apsara.basnet.9066
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/
+      #   icon: bx bxl-twitter
+
+  - name: Binjala Yadav
+    designation: General Member
+    img: binjala-yadav.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/binjala-yadav-863a0a1a2
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/BinjalaYadav
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/samaira9047
+        icon: bx bxl-facebook
+      - label: Twitter
+        url: http://twitter.com/BinjalaY?s=09
+        icon: bx bxl-twitter
+
+  - name: Kundan Shahi
+    designation: General Member
+    img: kundan-shahi.jpg
+    contacts:
+      # - label: LinkedIn
+      #   url: https://www.linkedin.com/in/
+      #   icon: bx bxl-linkedin
+      # - label: GitHub
+      #   url: https://github.com/
+      # icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/kunshahi
+        icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/
+      #   icon: bx bxl-twitter
+
+  - name: Rakshya kunwar
+    designation: General Member
+    img: rakshya-kunwar.jpg
+    contacts:
+      # - label: LinkedIn
+      #   url: https://www.linkedin.com/in/Rakshya kunwar
+      #   icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/Rakshya10
+        icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/rakshya.rana.372
+        icon: bx bxl-facebook
+      - label: Twitter
+        url: http://twitter.com/Rakshya_rana5
+        icon: bx bxl-twitter
+
+  - name: Bhumika Rai
+    designation: General Member
+    img: bhumika.jpg
+    contacts:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/bhumika-rai-42940b218
+        icon: bx bxl-linkedin
+      - label: GitHub
+        url: https://github.com/Bhumeekarai
+        icon: bx bxl-github
+      # - label: Facebook
+      #   url: https://www.facebook.com/Bhumika Rai
+      #   icon: bx bxl-facebook
+      # - label: Twitter
+      #   url: http://twitter.com/
+      #   icon: bx bxl-twitter
+
+  - name: Anupa Gurung
+    designation: General Member
+    img: anupa-gurung.jpg
+    contacts:
+      # - label: LinkedIn
+      #   url: https://www.linkedin.com/in/
+      #   icon: bx bxl-linkedin
+      # - label: GitHub
+      #   url: https://github.com/
+      #   icon: bx bxl-github
+      - label: Facebook
+        url: https://www.facebook.com/anupa.gurung.3517563
         icon: bx bxl-facebook
       # - label: Twitter
       #   url: http://twitter.com/
