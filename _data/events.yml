@@ -13,10 +13,10 @@ upcoming:
   # copy below template to create new event
   - name: "Software Freedom Day"
     venue: online
-    start_date: 18th Sept
-    start_day: Sat
-    days: 1
-    dates: 18th
+    start_date: 17th Sept
+    start_day: Fri, Sat
+    days: 2
+    dates: 17th, 18th
     timing: 4 PM - 6:30 PM NPT
     members_only: false
     register_link: TBD
