@@ -32,7 +32,9 @@
           {% if include.event.timing == "TBD" %}
             <a href="{{ include.event.register_link }}" target="_blank" class="btn btn-sm px-3 btn-primary">Submit Proposal</a>
           {% elsif include.event.register_link %}
-            {% if include.past != "true" %}
+            {% if include.event.register_link == "TBD" %}
+              <span class="btn btn-sm px-2 btn-primary">Registration Coming Soon</span>
+            {% elsif include.past != "true" %}
               <a href="{{ include.event.register_link }}" target="_blank" class="btn btn-sm px-3 btn-primary">Register</a>
             {% endif %}
           {% else %}

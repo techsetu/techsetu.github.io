@@ -8,7 +8,7 @@ placeholder:
   dates: TBD
   timing: TBD
   members_only: TBD
-  register_link: # https://forms.gle/Qjpafd8aKzPhzKfQ7 or coming_soon
+  register_link: # Registration Link  or TBD (will display coming soon)
 upcoming:
   # copy below template to create new event
   - name: "Software Freedom Day"
@@ -19,7 +19,7 @@ upcoming:
     dates: 18th
     timing: 4 PM - 6:30 PM NPT
     members_only: false
-    register_link: Comming Soon
+    register_link: TBD
   # - name: 'Get started into DevOps World with Docker'
   #   venue: online
   #   start_date: 26th June
