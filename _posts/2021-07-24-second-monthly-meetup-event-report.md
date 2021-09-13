@@ -3,8 +3,8 @@ layout: post
 title: Second Monthly Meetup Event report
 date: 2021-07-24
 tags:
-- meetup
-- event
+  - meetup
+  - event
 status: publish
 type: post
 published: true
@@ -14,7 +14,7 @@ thumbnail: blogs/meetups/meetup2/thumb.jpg
 cover_img: blogs/meetups/meetup2/thumb.jpg
 ---
 
-Recently, we conducted our second monthly tech meetup on __10th July 2021, Saturday__. Preparing for the second meet up was quite challenging, because we had already set a goal by the first meetup.
+Recently, we conducted our second monthly tech meetup on **10th July 2021, Saturday**. Preparing for the second meet up was quite challenging, because we had already set a goal by the first meetup.
 
 About TECH Setu, it is a student-led non-profit initiative with a mission to bridge the gap between IT Industry and Students. And, monthly meetup is one of our initiatives where students share their learnings and engineers share their experiences.
 
@@ -68,7 +68,7 @@ His topic of the talk was “5 Lessons to Build Your Successful Career”. He en
 
 ### Fourth Speaker as Lightning Speaker
 
-Mr. Nikhil Aryal gave a talk on the topic on “5 Hacking Tools One Must Know”. He explained some of the essential tools used for hacking.  As he said, hacking is not a small piece of cake, we should devote more and more time on Hacking. He shared his most useful hacking tools such as Wireshark, TCP Dump and Libcamp, MITM Proxy, Burp Suite and so on.
+Mr. Nikhil Aryal gave a talk on the topic on “5 Hacking Tools One Must Know”. He explained some of the essential tools used for hacking. As he said, hacking is not a small piece of cake, we should devote more and more time on Hacking. He shared his most useful hacking tools such as Wireshark, TCP Dump and Libcamp, MITM Proxy, Burp Suite and so on.
 
 {% include image.html path="blogs/meetups/meetup2/fourth.jpg" %}
 
@@ -98,5 +98,3 @@ See you in the next meetup.
 In case you missed the event, you can go through the following video and help yourself.
 
 {% include util/embed-youtube.html id="Q7xju4P2xSk" %}
-
-

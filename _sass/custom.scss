@@ -13,19 +13,19 @@ body {
   font-size: 15px;
 }
 .font-primary {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .font-secondary {
-  font-family: 'Open sans', sans-serif;
+  font-family: "Open sans", sans-serif;
 }
 .blue {
-  color: #175EEE;
+  color: #175eee;
 }
 .red {
-  color: #EE2020
+  color: #ee2020;
 }
 .green {
-  color: #0AAA50;
+  color: #0aaa50;
 }
 .btn {
   border-radius: 0;
@@ -36,7 +36,8 @@ body {
 // ul {
 //   list-style: none;
 // }
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 #page-content {
@@ -58,7 +59,8 @@ a, a:hover {
   height: 3450px;
 }
 .page-header {
-  background: url($image_base_url + "/page-header-bg.jpg") no-repeat center center/cover;
+  background: url($image_base_url + "/page-header-bg.jpg") no-repeat center
+    center/cover;
   padding: 4rem 0;
 
   h1 {
