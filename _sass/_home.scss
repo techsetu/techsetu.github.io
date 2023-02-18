@@ -58,7 +58,7 @@ header {
     z-index: 10;
   }
   .banner {
-    height: 80vh;
+    height: 70vh;
 
     .banner-bg {
       background: url($image_base_url + "/bg.jpg") no-repeat center center/cover;
@@ -68,6 +68,13 @@ header {
     h1 {
       color: #fff;
       font-size: 2.8rem;
+    }
+    .tagline {
+      margin: 2rem 0;
+      color: yellow;
+      border-left: 2px solid yellow;
+      padding-left: 10px;
+      font-weight: 300;
     }
     .purpose {
       h2 {
@@ -96,6 +103,45 @@ header {
   }
 }
 
+.join-channel-section {
+  padding: 4rem 0 7rem;
+
+  .container {
+    max-width: 1000px;
+
+    .wrapper {
+      box-shadow: -2px -5px 33px rgba(221, 225, 233, 0.52), 14px 18px 61px -21px #B6BFCC;
+      border-radius: 15px;
+
+      .img-wrapper {
+        height: 100%;
+        padding: 0;
+
+        .channel-img {
+          height: 100%;
+          width: 100%;
+          border-radius: 15px 0 0 15px;
+        }
+      }
+
+      .caption-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        color: #666;
+        padding: 3rem;
+
+        h1 {
+          color: #333;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
 .membership {
   .caption-wrapper {
     width: 50%;

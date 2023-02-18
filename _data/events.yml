@@ -1,25 +1,24 @@
 placeholder:
   # copy below template to create new event
-  name: Your talk or workshop topic
-  venue: online
-  start_date: TBD
-  start_day: TBD
-  days: TBD
-  dates: TBD
-  timing: TBD
-  members_only: TBD
+  name: Coming Soon ...
+  venue:
+  start_date:
+  start_day:
+  days:
+  dates:
+  timing:
+  members_only:
   register_link: # Registration Link  or TBD (will display coming soon)
 upcoming:
-  # copy below template to create new event
-  - name: "Software Freedom Day"
-    venue: online
-    start_date: 17th Sept
-    start_day: Fri, Sat
-    days: 2
-    dates: 17th, 18th
-    timing: 4 PM - 6:30 PM NPT
-    members_only: false
-    register_link: TBD
+  # - name: "Software Freedom Day"
+  #   venue: online
+  #   start_date: 17th Sept
+  #   start_day: Fri, Sat
+  #   days: 2
+  #   dates: 17th, 18th
+  #   timing: 4 PM - 6:30 PM NPT
+  #   members_only: false
+  #   register_link: TBD
   # - name: 'Get started into DevOps World with Docker'
   #   venue: online
   #   start_date: 26th June
@@ -46,6 +45,13 @@ upcoming:
   #   members_only: true
   # register_link: https://forms.gle/GXJu5qoQjfLABZTu9
 past:
+  - name: "Software Freedom Day"
+    venue: online
+    start_date: 17th Sept
+    start_day: Fri, Sat
+    days: 2
+    dates: 17th, 18th
+    timing: 4 PM - 6:30 PM NPT
   - name: "Monthly Meetup #3"
     venue: online
     start_date: 14th August

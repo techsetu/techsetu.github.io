@@ -4,23 +4,37 @@
       <div class="col-md-2 d-none d-sm-block">
         {% assign date_tokens = include.event.start_date | split: " " %}
         <div class="event-date h-100">
+          {% if include.event.start_day %}
           <div class="day">{{ include.event.start_day }}</div>
+          {% endif %}
+
+          {% if date_tokens[0] %}
           <div class="date">{{ date_tokens[0] }}</div>
-          <div class="text-uppercase">{{ date_tokens[1] }}</div>
+          {% endif %}
+          {% if date_tokens[1] %}
+            <div class="text-uppercase">{{ date_tokens[1] }}</div>
+          {% endif %}
         </div>
       </div>
       <div class="col-md-8">
         <div class="event-details">
           <h5 class="card-title text-primary">{{ include.event.name }}</h5>
           <div class="venue-and-time">
-            <i class="bx bxs-map bx-xs"></i> Online
-            <span class="mx-2">|</span> {{ include.event.days }} {% if include.event.days == 1 %}day{% else %}days{% endif %}
+            {% if include.event.venue %}
+              <i class="bx bxs-map bx-xs"></i> {{ include.event.venue }}
+              <span class="mx-2">|</span>
+            {% endif %}
+            {% if include.event.days %}
+              {{ include.event.days }} {% if include.event.days == 1 %}day{% else %}days{% endif %}
+            {% endif %}
             {% if include.event.dates %}
               <span>({{ include.event.dates }})</span>
             {% endif %}
           </div>
           <div class="duration">
-            <i class="bx bx-time bx-xs"></i><span class="ml-1">{{ include.event.timing }}</span>
+            {% if include.event.timing %}
+              <i class="bx bx-time bx-xs"></i><span class="ml-1">{{ include.event.timing }}</span>
+            {% endif %}
             {% if include.event.members_only and include.event.timing != "TBD" %}
               <span class="ml-2 badge badge-secondary p-1 font-weight-light">members-only</span>
             {% endif %}
@@ -38,12 +52,20 @@
               <a href="{{ include.event.register_link }}" target="_blank" class="btn btn-sm px-3 btn-primary">Register</a>
             {% endif %}
           {% else %}
-            <a href="/apply/" class="btn btn-sm px-3 btn-primary">Apply for Membership</a>
+            {% if include.event.past %}
+              <a href="/apply/" class="btn btn-sm px-3 btn-primary">Apply for Membership</a>
+            {% else %}
+              <a href="mailto:techsetuu@gmail.com" class="btn btn-sm px-3 btn-primary">
+                Send Your Proposal
+              </a>
+            {% endif %}
           {% endif %}
         </div>
-        <div class="float-left d-block d-sm-none">
-          <a href="#" class="btn btn-sm px-3 btn-primary">{{ include.event.start_date }}</a>
-        </div>
+        {% if include.event.start_date %}
+          <div class="float-left d-block d-sm-none">
+            <a href="#" class="btn btn-sm px-3 btn-primary">{{ include.event.start_date }}</a>
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>

@@ -1,11 +1,12 @@
 source "https://rubygems.org"
 
+gem "jekyll", "~> 4.2.0"
 gem "kramdown", ">= 2.3.1"
-gem "jekyll", "~> 4.1.1"
 
-# group :jekyll_plugins do
+group :jekyll_plugins do
+  gem "jekyll-redirect-from"
 #   gem "jekyll-feed", "~> 0.6"
-# end
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

@@ -1,6 +1,11 @@
 // desktop
 @media (max-width: 992px) {
 }
+@media screen and (min-width: 992px) {
+  .lg-block {
+    display: none;
+  }
+}
 
 // ipad and tablet
 @media (max-width: 768px) {
@@ -42,7 +47,30 @@
 }
 
 // standard mobile size
-@media (max-width: 500px) {
+@media (max-width: 520px) {
+  header .banner {
+    height: 90vh;
+  }
+  .mb-block {
+    display: block;
+  }
+  .join-channel-section {
+    .container {
+      max-width: 90%;
+
+      .wrapper {
+        .img-wrapper {
+          .channel-img {
+            border-radius: 15px 15px 0 0;
+          }
+        }
+
+        .caption-wrapper {
+          padding: 2.8rem 2rem;
+        }
+      }
+    }
+  }
   #apply {
     height: 3250px;
   }

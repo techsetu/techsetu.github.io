@@ -4,14 +4,14 @@ title: Blogs
 page_name: blog
 ---
 
-<div class="blogs-page page-margin">
+<div class="blogs-page recent-blogs page-margin">
   {% include page-header.html %}
 
   <div class="blogs-body">
     <div class="container">
       <div class="row">
         {% for post in site.posts %}
-          {% include blogs/post-outline.html post=post %}
+          {% include home/home-post-outline.html post=post %}
         {% endfor %}
       </div>
     </div>
