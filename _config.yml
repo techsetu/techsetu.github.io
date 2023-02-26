@@ -5,7 +5,7 @@ description: >-
   A non-profit initiative working on bridging the technological gap
   among IT Industry, IT Students and IT Professionals.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://techsetu.github.io"
+url: "https://techsetu.org"
 image_base_url: https://techsetu.sirv.com/img
 # image_base_url: /assets/img
 thumbnail: thumbnail.jpg
