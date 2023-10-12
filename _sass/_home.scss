@@ -51,6 +51,19 @@ header {
     }
   }
 
+  .archive-notice {
+    margin-top: 60px;
+    background-color: #1200AF;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+
   > * {
     z-index: 10;
   }
